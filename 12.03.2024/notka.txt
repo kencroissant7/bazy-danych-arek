@@ -1,0 +1,9 @@
+temat: powtórzenie wiad  z pdo
+utwórz bd z phpmyadmin o znazwie radosc
+dodaj do bazy relacyjny model tabel, 1 tabela wydarzenia idw nazwa, 2 tabela efekt ide (pk) idw (fk-wydarzenia) nazwa
+rodzaj połączenia w apk z bd to pdo
+struktura apk 
+bd posiada relacja i 5 wpisow do wydarzen i dowolna ilosc efektow
+index.php zawiera menu ktore ma home, posiada lista wydarzen i posiada efekt dla wydarzenia
+strona startowa ma menu uzyte w css, posiada tez info na temat ucznia
+lista.php posiada polaczenie do bd oraz pobiera do formularza znacznika <select> wszytskie rekordy z bd
