@@ -1,0 +1,6 @@
+Temat:
+SELECT kolumna1, kolumna2, kolumna3, ... from Tabela1
+where kolumna1 = (select kolumnaA1 from TabelaA1 where warunek_podzapytaia as nazwa)
+utwórz bd o nazwie 110320242CT. baza posiada tabela ksiazki, idk tytul cena, dodaj 5 rekordow utworz podzapytanie ktore wyswietli wszytskie ceny dla ktorych wartosc ceny jest 2 krotnie wieksza
+...............................................................................................
+SELECT ksiazki.tytul from ksiazki where ksiazki.cena>(select avg(ksiazki.cena)*2 from ksiazki);
