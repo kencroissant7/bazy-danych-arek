@@ -1,0 +1,21 @@
+podzapytania z użyciem INSERT (select)
+INSERT INTO archiwum(imie,nazwisko)
+	(
+	SELECT imie, nazwisko from uczniowie
+	);
+
+db name baza25032024
+2 tabele archiwum (null),
+uczniowie 10 rekordów
+  
+
+
+
+2zad
+3 tabele 
+klient (idk, name)
+jeden do wielu
+zamowienia (idz, ida(foreign key) nrzamowienia)
+
+archiwum_zamowienia utworz podzapytania archiwizujące nrzamowienia dla ktory posiada zamowienie
+utworz prezentacje (10 slajdow) temat: widoki w mysql. Prezentacja zawiera moją własną bd wiele do wielu, min 5 roznych widokow oraz pobierz dane z tych widokow, pokaz screeny
