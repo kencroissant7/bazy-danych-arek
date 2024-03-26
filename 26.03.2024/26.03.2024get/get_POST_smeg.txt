@@ -1,0 +1,20 @@
+Super globalne Get & POST w kontekście zapisu, odczytu, usuwania z db-PHP,SQL;
+
+$_POST[];
+$_GET[]; -> URL https://domena/index.php?MK=2 | echo $_GET['ZM'] 
+
+możemy wysyłać, odbierać dane;
+sposoby{
+formularz;
+link;
+}
+
+domyślnie zawsze wysyla get
+	<form action="index.php"(method='get'/'post')>...</form>
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+How to port xampp
+1-65535
+Uruchamiane sa usługi{FTP, FTPS, IMAP, SMTP, POP3, SSH, web, socket};
+IP serwer: 127.0.0.1, 192.168.1.6
+ 

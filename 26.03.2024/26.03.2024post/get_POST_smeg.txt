@@ -1,0 +1,2 @@
+utworz db baza
+tabela szybkie samchody(id, pojemnosc, cena) za pomoca superglobalnej get pobierz liste szybkich samochodow, ktore mają pojemnosc 1000cm^3, po kliknieciu na hiperłącze zmienia nazwe na transformers i tak samo Postem (dowolny css)
