@@ -1,0 +1,6 @@
+T: Poliformizm - wielopostaciowość
+OPP
+-poliformizm  ------> abstrakcja --> klasa obstrakcyjna
+-dziedziczenie
+-enkapsulacja==hermetyzacja
+Prog. Obiektowe

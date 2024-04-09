@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Pixelify+Sans:wght@400..700&family=Trade+Winds&family=UnifrakturCook:wght@700&display=swap');
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Pixelify Sans
+    ;
+    height: auto;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    color: green;
+    padding: 50px;
+    text-align: center;
+}
+
+.con1{
+    display: flex;
+    justify-content: center;
+    color: rgb(168, 15, 15);
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+select{
+    font-family: Pixelify sans;
+    font-size: larger;
+    text-align: center;
+    width: 280px;
+    height: 140px;
+    border: 0;
+    color: rgb(0, 180, 180);
+}
+select:hover{
+    border: 1px rgb(0, 180, 180) dashed;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 7em;
+    background-color: whitesmoke;
+    margin-top: 589px;
+}
+.footer{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.nounderline{
+    text-decoration: none;
+}
