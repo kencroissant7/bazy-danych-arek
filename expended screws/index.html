@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ćwiczenia</title>
+</head>
+<body>
+    <fieldset style="border-radius: 25px;width: 600px;padding: 20px; margin: auto; text-align: center; color: red;">
+        <legend>JavaScript to super język</legend>
+        <div style="width: 600px;padding: 20px;">
+        <form name="myform" id="myform">
+            <select name="dane" id="dane">
+                <option value="wybierz">wybierz</option>
+                <option value="Arek">item1</option>
+                <option value="Darek">item2</option>
+                <option value="Marek">item3</option>
+                <option value="Raja">item4</option>
+            </select>
+        </form>
+        </div>
+    </fieldset>
+    <br>
+    <div id="wynik" style="border: 1px solid green; border-radius: 25px;width: 600px;padding: 20px; margin: auto; text-align: center; color: green;">
+    
+    </div>
+    <script>
+        let mySelect = document.getElementById("dane");
+        mySelect.addEventListener("change", (event)=>{
+            let wynik = document.getElementById("wynik");
+            wynik.innerHTML = event.target.value;
+        });
+    </script>
+</body>
+</html>
